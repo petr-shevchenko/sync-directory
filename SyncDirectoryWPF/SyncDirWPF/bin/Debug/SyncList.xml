@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/SyncDirectory">
+  <ColumnWidthDestination>359</ColumnWidthDestination>
+  <ColumnWidthSource>179</ColumnWidthSource>
+  <Data>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\_SyncDir\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:03.4550475+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0</LastSynchronizationDuration>
+      <SourceDirectory>M:\_SyncDir\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 0.00 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Anykey\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T14:24:39.8698786+03:00</LastSynchronization>
+      <LastSynchronizationDuration>1.4062682</LastSynchronizationDuration>
+      <SourceDirectory>M:\Anykey\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 14:24 за 1.41 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Books\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:56:23.8434995+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0.328129</LastSynchronizationDuration>
+      <SourceDirectory>M:\Books\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:56 за 0.33 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Games\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:03.4862849+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0.0312374</LastSynchronizationDuration>
+      <SourceDirectory>M:\Games\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 0.03 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Maps\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:03.6894129+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0.2343654</LastSynchronizationDuration>
+      <SourceDirectory>M:\Maps\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 0.23 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Music\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:03.7519138+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0.29686629999999997</LastSynchronizationDuration>
+      <SourceDirectory>M:\Music\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 0.30 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\MyPrograms\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:07.0067843+03:00</LastSynchronization>
+      <LastSynchronizationDuration>3.5517368</LastSynchronizationDuration>
+      <SourceDirectory>M:\MyPrograms\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 3.55 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\photo\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:06.6942811+03:00</LastSynchronization>
+      <LastSynchronizationDuration>3.2392336</LastSynchronizationDuration>
+      <SourceDirectory>M:\photo\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 3.24 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\RopeJumping\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:06.5849041+03:00</LastSynchronization>
+      <LastSynchronizationDuration>3.1298565999999997</LastSynchronizationDuration>
+      <SourceDirectory>M:\RopeJumping\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 3.13 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\work\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:26:07.9171834+03:00</LastSynchronization>
+      <LastSynchronizationDuration>4.4621359</LastSynchronizationDuration>
+      <SourceDirectory>M:\work\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:26 за 4.46 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+    <SyncListRecord>
+      <Cancel xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading" />
+      <DestinationDirectory>D:\Shevchenko\backup_ext_hdd\Дистрибутивы\</DestinationDirectory>
+      <LastSynchronization>2016-03-23T13:40:43.7024848+03:00</LastSynchronization>
+      <LastSynchronizationDuration>0.9218757</LastSynchronizationDuration>
+      <SourceDirectory>M:\Дистрибутивы\</SourceDirectory>
+      <Status>Синхронизировано 2016.03.23 13:40 за 0.92 секунд</Status>
+      <SyncTask xmlns:d4p1="http://schemas.datacontract.org/2004/07/System.Threading.Tasks" />
+    </SyncListRecord>
+  </Data>
+</SyncList>

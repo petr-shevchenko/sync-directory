@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSyncListRecord xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/SyncDirectory">
+  <SyncListRecord>
+    <Cancel xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Threading" i:nil="true" />
+    <DestinationDirectory>d:\Shevchenko\test\backup\eng\</DestinationDirectory>
+    <LastSynchronization>0001-01-01T00:00:00</LastSynchronization>
+    <LastSynchronizationDuration>0.1552701</LastSynchronizationDuration>
+    <SourceDirectory>i:\eng\</SourceDirectory>
+    <Status>Синхронизация не проводилась</Status>
+  </SyncListRecord>
+  <SyncListRecord>
+    <Cancel xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Threading" i:nil="true" />
+    <DestinationDirectory>d:\Shevchenko\test\backup\eng2\</DestinationDirectory>
+    <LastSynchronization>2016-03-18T11:21:20.0566282+03:00</LastSynchronization>
+    <LastSynchronizationDuration>0.025760699999999997</LastSynchronizationDuration>
+    <SourceDirectory>i:\eng\books\</SourceDirectory>
+    <Status>Синхронизировано 2016.03.18 11:21 за 0.03 секунд</Status>
+  </SyncListRecord>
+  <SyncListRecord>
+    <Cancel xmlns:d3p1="http://schemas.datacontract.org/2004/07/System.Threading" i:nil="true" />
+    <DestinationDirectory>d:\Shevchenko\test\backup\eng3\</DestinationDirectory>
+    <LastSynchronization>2016-03-18T11:21:29.0418399+03:00</LastSynchronization>
+    <LastSynchronizationDuration>0.0580881</LastSynchronizationDuration>
+    <SourceDirectory>i:\eng\books\</SourceDirectory>
+    <Status>Синхронизировано 2016.03.18 11:21 за 0.06 секунд</Status>
+  </SyncListRecord>
+</ArrayOfSyncListRecord>

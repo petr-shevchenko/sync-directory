@@ -1,0 +1,72 @@
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDirWPF.exe.config
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csprojResolveAssemblyReference.cache
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.baml
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.g.cs
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\App.g.cs
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF_MarkupCompile.cache
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.g.resources
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csproj.GenerateResource.Cache
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDirWPF.exe
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDirWPF.pdb
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.baml
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.g.cs
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.exe
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.pdb
+M:\my_programs\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirectory.Properties.Resources.resources
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\App.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirectory.Properties.Resources.resources
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csproj.GenerateResource.Cache
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ucSelectFolder.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\wAddFolder.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ucSelectFolder.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\wAddFolder.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\ButtonStyleWith.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\ButtonStyleWith.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\Themes\Brushes.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\Themes\Core.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\App.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\WindowStyle\VS2012WindowStyle.baml
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\WindowStyle\VS2012WindowStyle.g.cs
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csprojResolveAssemblyReference.cache
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.exe.config
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.exe
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.pdb
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1_MarkupCompile.cache
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1_MarkupCompile.lref
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.g.resources
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.exe
+M:\MyPrograms\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.pdb
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.exe.config
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.exe
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\bin\Debug\SyncDir 4.1.pdb
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csprojAssemblyReference.cache
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\Themes\Brushes.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\Themes\Core.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\WindowStyle\VS2012WindowStyle.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ucSelectFolder.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\App.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ProgressBar\WTProgressBar.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\ButtonStyleWith.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\WindowStyle\VS2012WindowStyle.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\ucSelectFolder.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\wAddFolder.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\App.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1_MarkupCompile.cache
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1_MarkupCompile.lref
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\MainWindow.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\Style\ButtonStyleWith.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\wAddFolder.baml
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.g.resources
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirectory.Properties.Resources.resources
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csproj.GenerateResource.cache
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDirWPF.csproj.CoreCompileInputs.cache
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.exe
+D:\my_programs\develop\SyncDirectory\SyncDirectoryWPF\SyncDirWPF\obj\Debug\SyncDir 4.1.pdb

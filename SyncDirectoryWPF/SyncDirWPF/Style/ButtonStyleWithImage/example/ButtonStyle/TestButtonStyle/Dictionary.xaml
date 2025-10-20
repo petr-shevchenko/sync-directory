@@ -1,0 +1,229 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:styles="clr-namespace:ButtonStyle"
+                    x:Class="ButtonStyle.Dictionary">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Brushes.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- Button -->
+    <Style x:Key="ButtonWithImage" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="Foreground" Value="{StaticResource ControlForegroundWhite}" />
+        <Setter Property="Background" Value="{StaticResource ControlBackgroundNormal}"/>
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusLine}"/>
+        <Setter Property="BorderThickness" Value="{StaticResource BorderThicknessButton}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ControlBorderBrush}"/>
+        <Setter Property="Padding" Value="{StaticResource MarginContentButton}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid x:Name="Root">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition GeneratedDuration="0:0:0.2" />
+                                    <VisualTransition To="Pressed" />
+                                    <VisualTransition From="Pressed" />
+                                </VisualStateGroup.Transitions>
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="PressedElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="MouseOverElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="NormalElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0.25" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="PressedElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="MouseOverElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="BorderVisual" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="BorderPressed" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="NormalElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="DisabledElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="HighlightElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0.5" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="ContentHost" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0.75" />
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused"/>
+                                <VisualState x:Name="Unfocused" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Border x:Name="DisabledElement" Background="{StaticResource DisabledBrush}" CornerRadius="2" Opacity="0">
+                            <Border BorderBrush="{StaticResource DisabledBorderBrush}" BorderThickness="0,0,1,1" CornerRadius="2" />
+                        </Border>
+                        <Border x:Name="BorderVisual" Background="Transparent" CornerRadius="4" BorderBrush="{StaticResource BorderBrushVisual}" BorderThickness="{StaticResource ThicknessButtonVisual}" />
+                        <Border x:Name="BorderPressed" Background="Transparent" CornerRadius="4" BorderBrush="{StaticResource ControlPressedVisualBrush}" BorderThickness="{StaticResource ThicknessButtonVisual}" Opacity="0" />
+                        <Border x:Name="NormalElement" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="2" Effect="{StaticResource ControlShadowEffect}"
+                                BorderThickness="{TemplateBinding BorderThickness}" Margin="{StaticResource MarginBorderButton}"/>
+                        <Border x:Name="MouseOverElement" BorderBrush="{StaticResource ControlActiveBorderBrush}" Background="{StaticResource ControlBackgroundOver}" CornerRadius="2" Opacity="0" 
+                                BorderThickness="{TemplateBinding BorderThickness}" Margin="{StaticResource MarginBorderButtonOver}"/>
+                        <Border x:Name="PressedElement" Background="{StaticResource ControlBackgroundPressed}" CornerRadius="2" Opacity="0" BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{StaticResource ControlActiveBorderBrush}" Margin="{StaticResource MarginBorderButton}"/>
+                        <Border x:Name="HighlightElement" BorderBrush="{StaticResource ControlHighlight}" BorderThickness="{StaticResource BorderThicknessButtonOutline}" CornerRadius="2" />
+                        <Image Name="ContentImage" 
+                               Source="{Binding Path=(styles:ImageContentPresenter.Image), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"
+                               Margin="{Binding Path=(styles:ImageContentPresenter.ImageMargin), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}"
+                               Width="Auto" />
+                        <ContentPresenter x:Name="ContentHost" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                        </ContentPresenter>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Right">
+                            <Setter TargetName="ContentImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Left">
+                            <Setter TargetName="ContentImage" Property="HorizontalAlignment" Value="Right" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Center">
+                            <Setter TargetName="ContentImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                        </Trigger>
+                        
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Top">
+                            <Setter TargetName="ContentImage" Property="VerticalAlignment" Value="Bottom" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Bottom">
+                            <Setter TargetName="ContentImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Center">
+                            <Setter TargetName="ContentImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <!--ToggleButton--> 
+    <Style TargetType="ToggleButton" x:Key="ToggleButtonWithTwoImageStyle">
+        <Setter Property="TextOptions.TextHintingMode" Value="Animated" />
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ControlForegroundWhite}" />
+        <Setter Property="Background" Value="{StaticResource ControlBackgroundNormal}"/>
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusLine}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Grid x:Name="Root">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualStateGroup.Transitions>
+                                    <VisualTransition GeneratedDuration="0:0:0.1" />
+                                    <VisualTransition To="Pressed" />
+                                    <VisualTransition From="Pressed"/>
+                                </VisualStateGroup.Transitions>
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="MouseOverElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="NormalElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="DisabledElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="HighlightElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0.5" />
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="ContentHost" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="0.75" />
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="NormalElement" />
+                                        <DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="HighlightElement" />
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CheckedElement" />
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="MouseOverElement">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked" />
+                                <VisualState x:Name="Indeterminate" />
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" Storyboard.TargetName="FocusVisualElement" Storyboard.TargetProperty="(FrameworkElement.Opacity)" To="1" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Border x:Name="DisabledElement" Background="{StaticResource DisabledBrush}" CornerRadius="2" Opacity="0">
+                            <Border BorderBrush="{StaticResource DisabledBorderBrush}" BorderThickness="0,0,1,1" CornerRadius="2" />
+                        </Border>
+                        <Border x:Name="NormalElement" Background="{StaticResource ControlBackgroundNormal}" CornerRadius="2" Effect="{StaticResource ControlShadowEffect}" />
+                        <Border x:Name="CheckedElement" CornerRadius="2.5" BorderBrush="#D0494a4d" BorderThickness="1" Margin="0,-1,0,-1" Opacity="0"
+                                Background="{StaticResource ToggleButtonChecked}">
+                            <Border BorderBrush="#70303030" BorderThickness="1,1,0,0" CornerRadius="2">
+                                <Border BorderBrush="#30303030" BorderThickness="1" CornerRadius="1.5">
+                                    <Border BorderBrush="#10303030" BorderThickness="1,1,0,0" CornerRadius="1" />
+                                </Border>
+                            </Border>
+                        </Border>
+                        <Border x:Name="MouseOverElement" Background="{StaticResource ControlBackgroundLine}" CornerRadius="2" Opacity="0" />
+                        
+                        <Border x:Name="HighlightElement" BorderBrush="{StaticResource ControlHighlight}" BorderThickness="{StaticResource BorderThicknessButtonOutline}" CornerRadius="2" />
+                        
+                        <Image Name="ContentInactiveImage" Source="{Binding Path=(styles:ImageContentPresenter.InactiveModeImage), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ToggleButton}}}"
+                               Margin="{Binding Path=(styles:ImageContentPresenter.ImageMargin), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ToggleButton}}}"
+                               Width="Auto" />
+                        <Image Name="ContentActiveImage"   Source="{Binding Path=(styles:ImageContentPresenter.Image), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ToggleButton}}}"
+                               Margin="{Binding Path=(styles:ImageContentPresenter.ImageMargin), RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ToggleButton}}}"
+                               Width="Auto" />
+                        <ContentPresenter x:Name="ContentHost" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        
+                        <Rectangle x:Name="FocusVisualElement" IsHitTestVisible="False" Margin="0" Opacity="0" RadiusX="1" RadiusY="1" Stroke="{StaticResource FocusVisualBrush}" StrokeThickness="1" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="ContentActiveImage" Property="Visibility" Value="Collapsed"></Setter>
+                            <Setter TargetName="ContentInactiveImage" Property="Visibility" Value="Visible"></Setter>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="ContentActiveImage" Property="Visibility" Value="Visible"></Setter>
+                            <Setter TargetName="ContentInactiveImage" Property="Visibility" Value="Collapsed"></Setter>
+                        </Trigger>
+
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Right">
+                            <Setter TargetName="ContentInactiveImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Left">
+                            <Setter TargetName="ContentInactiveImage" Property="HorizontalAlignment" Value="Right" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="HorizontalAlignment" Value="Right" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="HorizontalAlignment" Value="Center">
+                            <Setter TargetName="ContentInactiveImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="HorizontalAlignment" Value="Left" ></Setter>
+                        </Trigger>
+
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Top">
+                            <Setter TargetName="ContentInactiveImage" Property="VerticalAlignment" Value="Bottom" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="VerticalAlignment" Value="Bottom" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Bottom">
+                            <Setter TargetName="ContentInactiveImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                        </Trigger>
+                        <Trigger SourceName="ContentHost" Property="VerticalAlignment" Value="Center">
+                            <Setter TargetName="ContentInactiveImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                            <Setter TargetName="ContentActiveImage" Property="VerticalAlignment" Value="Top" ></Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
